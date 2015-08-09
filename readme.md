@@ -1,6 +1,6 @@
 # Per-monitor DPI Support Library
 
-[![NuGet](https://img.shields.io/nuget/v/Mntone.Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://www.nuget.org/packages/Mntone.Windows.PerMonitorDpiSupport/) [![Downloads](https://img.shields.io/nuget/dt/Mntone.Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://www.nuget.org/packages/MetroRadiance.Core/) [![License](https://img.shields.io/github/license/mntone/Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://github.com/mntone/Mntone.Windows.PerMonitorDpiSupport/blob/master/LICENSE.txt)
+[![NuGet](https://img.shields.io/nuget/v/Mntone.Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://www.nuget.org/packages/Mntone.Windows.PerMonitorDpiSupport/) [![Downloads](https://img.shields.io/nuget/dt/Mntone.Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://www.nuget.org/packages/Mntone.Windows.PerMonitorDpiSupport/) [![License](https://img.shields.io/github/license/mntone/Windows.PerMonitorDpiSupport.svg?style=flat-square)](https://github.com/mntone/Mntone.Windows.PerMonitorDpiSupport/blob/master/LICENSE.txt)
 
 This library includes class `Window` that handles Per-monitor DPI.
 
