@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cd26aed1-d44f-41ae-9708-35bc9b4c03d1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Mntone.Windows.PerMonitorDpiSupport.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\HitTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\MonitorDefaultTo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\MonitorDpiType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\NativeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\NativeMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\NativePoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\NativeRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\ProcessDpiAwareness.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32\WindowMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dpi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PerMonitorDpiHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PerMonitorDpiSupportWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Mntone.Windows.PerMonitorDpiSupport.nuspec" />
+  </ItemGroup>
+</Project>

@@ -4,22 +4,21 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{240BB1AC-D5F4-4AD0-94FC-18309987CF7E}</ProjectGuid>
+    <ProjectGuid>{41979095-BB64-4FCD-9D3D-1687D486A72A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Mntone.Windows.PerMonitorDpiSupport</RootNamespace>
     <AssemblyName>Mntone.Windows.PerMonitorDpiSupport</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\4.5\</OutputPath>
-    <BaseIntermediateOutputPath>obj\Release\4.5\</BaseIntermediateOutputPath>
+    <OutputPath>bin\Debug\4.0\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Debug\4.0\</BaseIntermediateOutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -28,8 +27,8 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\4.5\</OutputPath>
-    <BaseIntermediateOutputPath>obj\Release\4.5\</BaseIntermediateOutputPath>
+    <OutputPath>bin\Release\4.0\</OutputPath>
+    <BaseIntermediateOutputPath>obj\Release\4.0\</BaseIntermediateOutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
